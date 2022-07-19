@@ -4,7 +4,9 @@
 /*-------------- Common area --------- */
 body{
     font-family: 'Poppins', sans-serif;
-
+}
+.container{
+    margin-bottom: 130px;
 }
 
 
@@ -79,3 +81,47 @@ body{
 /**********************************
          Blog section styles  
 ***********************************/
+
+/* ------blogs naigation area------  */
+.blogs-info{
+    display: flex;
+
+}
+.blogs-nav-area{
+    width: 312px;
+    height: 312px;
+}
+.blogs-nav{
+    background-color: #161616;
+    width: 252px;
+    height: 252px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.single-nav{
+    width: 252px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 30px;   
+}
+.single-nav.white{
+    background-color: white; 
+}
+.single-nav.white a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+}
+.single-nav.color{
+    background-color: tomato;
+}
+.single-nav.color a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+}
