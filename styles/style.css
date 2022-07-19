@@ -1,0 +1,81 @@
+/*------------- Fonts --------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*-------------- Common area --------- */
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+ /* ==================================
+       Head banner style section
+    ================================= */
+.head-banner-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.head-banner{
+    background-color: #161616;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 646px;
+    color: white;
+    padding: 0 0 0 50px;
+    border-radius: 10px;
+    
+}
+.head-banner-info h1{
+    font-weight: 700;
+    font-size: 50px;
+    height: 240px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.head-banner-info p{
+    font-weight: 400;
+    font-size: 16px;
+    height: 78px;
+    width: 506px;
+    margin: 0px;
+    padding-bottom: 30px;
+}
+.head-banner-button{
+    background-color: #E02C6D;
+    width: 187px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.head-banner-button a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+}
+/* .icon{
+    width: 24px;
+    height: 24px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.head-banner-button img{
+    padding-top: 5px;
+}
+.head-banner-img img{
+    width: 490px;
+    height: 613px;
+    margin-top: 33px;
+}
+
+
+/**********************************
+         Blog section styles  
+***********************************/
