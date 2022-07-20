@@ -60,14 +60,6 @@ body{
     font-weight: 400;
     color: white;
 }
-/* .icon{
-    width: 24px;
-    height: 24px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 .head-banner-button img{
     padding-top: 5px;
 }
@@ -189,8 +181,55 @@ body{
 }
 
 
+/*------------------Upcoming-matches page style section------------------
+==========================================================================  */
+.matches{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.match{
+    width: 250px;
+    height: 200px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.match-detail{
+    border-radius: 2px;
+    
+ 
+}
 
-/* tab spesial  */
+.match-img{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 20px;
+}
+.flag{
+    width: 93.04px;
+    height: 56.18px;
+}
+.match-img h2{
+    font-size: 15px;
+    padding: 0 5px;
+}
+.match-title h3{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 10px;
+}
+.match-time p{
+    text-align: center;
+    margin: 0;
+}
+
+
+/*========================== tab/tablet spesial=========================  */
 .viewall-container{
     display: flex;
     justify-content: center;
@@ -247,7 +286,9 @@ footer{
     margin-left: 100px;
 } */
 
-
+/* -------------------------------------
+          Fopter section styles
+------------------------------------------*/
 footer{
     width: 100%;
     padding-top: 200px;
@@ -285,4 +326,47 @@ footer{
 .footer-icon a{
     color: lightpink;
     padding: 5px;
+}
+
+
+
+/*=====================================
+            Media query section
+========================================*/
+
+
+@media only screen and (max-width:667px) {
+    .viewall-container, .blogs-container, footer{
+        display: none;
+    }
+    .head-banner-container{
+        width: 334px;
+        height: 472px;
+    }
+
+    .head-banner{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .head-banner-info{
+        width: 258px;
+        height: 178px;
+    }
+    .head-banner-info h1{
+        font-weight: 700;
+        font-size: 22px;
+        margin: 0;
+        padding-bottom: 2px;
+    }
+    .head-banner-info p{
+        font-weight: 400;
+        font-size: 14px;
+        margin: 0px;
+        padding-bottom: 5px;
+    }
+
+    .head-banner-img img{
+        width: 233px;
+        height: 245px;
+    }
 }
