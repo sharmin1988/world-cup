@@ -190,8 +190,32 @@ body{
 
 
 
-/*--------------- footer style section --------------- */
+/* tab spesial  */
+.viewall-container{
+    display: flex;
+    justify-content: center;
 
+}
+.viewall{
+    background-color: #E02C6D;
+    width: 187px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.viewall a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+}
+
+
+
+/*--------------- footer style section --------------- */
+/* 
 footer{
     width: 100%;
 }
@@ -200,11 +224,9 @@ footer{
     height: 444px;
     background-color: #161616;
     color: white;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .footer-title h2{
     font-size: 40px;
@@ -223,4 +245,44 @@ footer{
     font-weight: 500;
     width: 700px;
     margin-left: 100px;
+} */
+
+
+footer{
+    width: 100%;
+    padding-top: 200px;
+    background-color: #161616;
+}
+.footer-info{
+    height: 500px;
+    color: white;
+}
+.footer-heading h2{
+    font-size: 40px;
+    text-align: center;
+    margin: 0 0 50px;
+}
+.footer-line hr{
+    width: 900px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    color: #B9B9B9;
+    font-weight: 500;
+    margin-left: 200px;
+}
+.footer-icon{
+    width: 100px;
+    text-align: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 45%;
+}
+.footer-icon a{
+    color: lightpink;
+    padding: 5px;
 }
